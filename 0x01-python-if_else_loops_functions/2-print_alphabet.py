@@ -1,3 +1,3 @@
-#!/usr/bin/bash
-for alpa in range(97, 123):
-    print(chr(alpha))
+#!/usr/bin/python
+for alpha in range(97, 123):
+    print(f"{chr(alpha)}", end='')
